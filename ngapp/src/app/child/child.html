@@ -1,0 +1,7 @@
+<p>child works!</p>
+<p> Content from parent: {{ content }} </p>
+@for(state of states; track state){
+<div> Name: {{ state }} </div>
+}@empty {
+<div>States are empty</div>
+}
